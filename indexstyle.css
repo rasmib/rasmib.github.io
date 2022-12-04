@@ -1,0 +1,77 @@
+
+body {
+    background-color: blanchedalmond;
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navigation {
+    border: 1px solid lightpink;
+    padding: 40px 0px;
+    position: relative;
+    text-align:center;
+    width: 100%;
+    background-image:url(images/background.jpg);
+    position:fixed;
+    margin-top:-23px;
+    
+  }
+  
+  .navigation a {
+    background-color:lightpink;
+    border: 1px solid white;
+    border-radius: 3px;
+    color: white;
+    margin-top:-10px;
+    padding: 14px;
+    text-decoration: none;
+    margin-right:  10px;
+    
+  
+  }
+  
+  .navigation a:hover {
+    background: white;
+    border: 1px solid pink;
+    color:lightslategray;
+
+  }
+
+  .navigation a.active{
+    background: white;
+    border: 1px solid pink;
+    color:lightslategray;
+    
+  }
+
+  h1{
+    text-align: center;
+    color:rgb(213, 70, 101);
+    background-color:blanchedalmond;
+    margin-top: -2px;
+    
+  }
+
+  .rasmi {
+    text-align: center;
+    color:rgb(213, 70, 101);
+    background-color:blanchedalmond;
+    margin-top: 2px;
+  } 
+
+  h2{
+    text-align: center;
+  }
+
+  .imgcenter{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -50px;
+  width:auto;
+  }
+
+ 
